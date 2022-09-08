@@ -33,12 +33,16 @@
     /* Prova a mettere una larghezza fissa sulla colonna */
 }
 
-.col_2 {
-    width: calc((100% / 12) * 2);
-}
-
 .col_4 {
     width: calc((100% / 12) * 4);
+}
+
+.col_6 {
+    width: calc((100% / 12) * 6);
+}
+
+.col_12 {
+    width: calc((100% / 12) * 12);
 }
 
 /* #endregion utility */
@@ -99,4 +103,23 @@ img {
     width: 100%;
     background-color: #222222;
     color: white;
+}
+
+.fa-microphone-lines {
+    font-size: 30px;
+    margin: 15px 15px 0 15px;
+}
+
+.text{
+    margin: 5px 10px;
+}
+
+.fa-angle-up{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.fa-video {
+    font-size: 30px;
+    margin: 15px 15px 0 30px;
 }
