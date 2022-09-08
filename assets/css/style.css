@@ -28,7 +28,7 @@
 }
 
 .col_2 {
-    width: calc((100% / 12)* 2);
+    width: 210px;
     position: relative;
     /* Prova a mettere una larghezza fissa sulla colonna */
 }
@@ -67,13 +67,15 @@
 }
 
 img {
+    height: 150px;
     max-width: 100%;
+    padding: 5px;
 }
 
 .id_badge{
     position: absolute;
-    left: 0;
-    bottom: 8px;
+    left: 5px;
+    bottom: 12px;
     color: white;
     padding: 4px;
     background-color: rgba(65, 65, 65, 0.616);
