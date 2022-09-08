@@ -27,13 +27,17 @@
     margin: auto;
 }
 
-.col_2 {
+.col {
     width: 210px;
     position: relative;
     /* Prova a mettere una larghezza fissa sulla colonna */
 }
 
-.col_4{
+.col_2 {
+    width: calc((100% / 12) * 2);
+}
+
+.col_4 {
     width: calc((100% / 12) * 4);
 }
 
@@ -96,4 +100,3 @@ img {
     background-color: #222222;
     color: white;
 }
-
