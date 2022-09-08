@@ -16,10 +16,24 @@
     flex-direction: row;
 }
 
+.flex_reverse {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
 .flex_column {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+}
+
+.align_end {
+    text-align: end;
 }
 
 .row {
@@ -33,12 +47,20 @@
     /* Prova a mettere una larghezza fissa sulla colonna */
 }
 
+.col_2 {
+    width: calc((100% / 12) * 2);
+}
+
 .col_4 {
     width: calc((100% / 12) * 4);
 }
 
 .col_6 {
     width: calc((100% / 12) * 6);
+}
+
+.col_8 {
+    width: calc((100% / 12) * 8);
 }
 
 .col_12 {
@@ -110,11 +132,11 @@ img {
     margin: 15px 15px 0 15px;
 }
 
-.text{
+.text {
     margin: 5px 10px;
 }
 
-.fa-angle-up{
+.fa-angle-up {
     font-size: 15px;
     margin-top: 30px;
 }
@@ -122,4 +144,25 @@ img {
 .fa-video {
     font-size: 30px;
     margin: 15px 15px 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.end{
+    background-color: gray;
+    color: red;
+    padding: 29px 20px;
 }
