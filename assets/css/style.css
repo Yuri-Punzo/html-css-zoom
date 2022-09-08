@@ -127,7 +127,7 @@ img {
     color: white;
 }
 
-.fa-microphone-lines {
+.icon_size {
     font-size: 30px;
     margin: 15px 15px 0 15px;
 }
@@ -142,8 +142,28 @@ img {
 }
 
 .fa-video {
-    font-size: 30px;
-    margin: 15px 15px 0 30px;
+    margin-left: 30px;
+}
+
+.fa-users {
+    margin-left: 60px;
+}
+
+.fa-square-poll-vertical{
+    margin-left: 20px;
+}
+
+.fa-share-from-square {
+    margin-left: 40px;
+    color: #4bc800;
+}
+
+.fa-comment{
+    margin-left: 12px;
+}
+
+.fa-table-cells-large {
+    margin-left: 48px;
 }
 
 
@@ -160,8 +180,7 @@ img {
 
 
 
-
-.end{
+.end {
     background-color: gray;
     color: red;
     padding: 29px 20px;
